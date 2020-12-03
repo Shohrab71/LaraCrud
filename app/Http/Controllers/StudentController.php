@@ -53,7 +53,7 @@ class StudentController extends Controller
         $students->name = $request->name;
         $students->roll = $request->roll;
         $students->mobile = $request->mobile;
-        $students->photo = $request->file('photo');
+       
         
         
 

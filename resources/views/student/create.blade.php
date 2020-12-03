@@ -38,10 +38,7 @@
                     <label>Mobile</label>
                     <input type="text" class="form-control" placeholder="Enter Mobile" name="mobile"  value="{{ old('mobile') }}">
                 </div>
-                <div class="form-group">
-                  <label>Photo</label>
-                  <input type="file" class="form-control" placeholder="Enter Mobile" name="photo"  value="{{ old('photo') }}">
-              </div>
+               
                 <button type="submit" class="btn btn-primary">Submit</button>
               </form>
         
